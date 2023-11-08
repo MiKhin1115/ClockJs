@@ -39,10 +39,7 @@ body{
     color: #00ff87;
     text-shadow: 0 0 15px black;
 }
-.number b{
-    transform: rotate(clac(-30deg * var(--n)));
-    display: block;
-}
+
 .center-dot{
     position: absolute;
     background-color: gray;
@@ -62,17 +59,17 @@ body{
     width: 12px;
     height: 130px;
     background: linear-gradient(#00d9ff, #ff00c8);
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .minute-hand{
     width: 12px;
     height: 190px;
     background: linear-gradient(to top, #00d9ff,#ff00c8);
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .second-hand{
-    width: 6px;
+    width: 8px;
     height: 210px;
     background: linear-gradient(to top, #00d9ff, #ff00c8);
-    border-radius: 20px;
+    border-radius: 30px;
 }
